@@ -1,3 +1,4 @@
 name: Tom Parr
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+url: https://tomparr.github.io/
