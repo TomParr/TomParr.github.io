@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Winter Sports</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+}
+.parallax {
+  background-image: url("mountain.jpg");
+  height: 2500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  z-index: 0;
+}
+.pic1 {
+	position: absolute;
+	height: 680px;
+	width: 1035px;
+	top: 214px;
+	left: 216px;
+	z-index: 1;
+	transform: matrix(1, -0.02, 0.02, 1, 0, 0);
+	box-shadow: 0px 7px 7px #0000002B;
+	border-radius: 3px;
+}
+.colorBox{
+	position:absolute;
+  	width:456px;
+  	height:287px;
+  	left:1128px;
+  	top:411px;
+  	z-index: 2;
+  	background: #FF7A00 0% 0% no-repeat padding-box;
+	border-radius: 3px 3px 0px 0px;
+	opacity: 0.9;
+}
+.whiteLine1{
+	position: absolute;
+	top: 44.75px;
+	left: 33.4px;
+	width: 391px;
+	height: 0px;
+	border: 3px solid #FFFFFF;
+	opacity: 1;
+	z-index: 3;
+}
+.text1{
+	position: absolute;
+	top: 72.29px;
+	left: 62.03px;
+	width: 300px;
+	height: 100px;
+	text-align: left;
+	font-size: 44px;
+	font-family: 'Roboto', Helvetica, sans-serif;
+	letter-spacing: 0;
+	color: #FFFFFF;
+	opacity: 1;
+	z-index: 3;
+}
+.text2{
+	position: absolute;
+	top: 116.55px;
+	left: 62.03px;
+	width: 370px;
+	height: 100px;
+	text-align: left;
+	font-size: 44px;
+	font-family: 'Roboto', Helvetica, sans-serif;
+	letter-spacing: 0;
+	color: #FF7A00;
+	opacity: 1;
+	text-shadow:
+   -1px -1px 0 #FFFFFF,  
+    1px -1px 0 #FFFFFF,
+    -1px 1px 0 #FFFFFF,
+     1px 1px 0 #FFFFFF;
+	z-index: 3;
+}
+.text3{
+	position: absolute;
+	top: 161.44px;
+	left: 62.03px;
+	width: 300px;
+	height: 100px;
+	text-align: left;
+	font-size: 44px;
+	font-family: 'Roboto', Helvetica, sans-serif;
+	letter-spacing: 0;
+	color: #FFFFFF;
+	opacity: 1;
+	z-index: 3;
+}
+.whiteLine2{
+	position: absolute;
+	top: 238.25px;
+	left: 33.4px;
+	width: 391px;
+	height: 0px;
+	border: 3px solid #FFFFFF;
+	opacity: 1;
+	z-index: 3;
+}
+.blueDot{
+	position: absolute;
+	top: 77px;
+	left: 1177px;
+	width: 90px;
+	height: 90px;
+	background:#004381 0% 0% no-repeat padding-box;
+	opacity: 0.66;
+	z-index: 1;
+	border-radius: 50%;
+}
+
+.colorBox2{
+	position:absolute;
+  	width:960px;
+  	height:713px;
+  	left:0px;
+  	top:1176px;
+  	z-index: 2;
+  	background: #D8F5FD 0% 0% no-repeat padding-box;
+	border-radius: 3px 3px 0px 0px;
+	opacity: 1;
+}
+.orangeCircle{
+	position: absolute;
+	top:107px;
+	left:175px;
+	width: 34px;
+	height: 34px;
+	border: 6px solid#FF7A00;
+	opacity: 1;
+	z-index: 3;
+	border-radius: 50%;
+}
+.text4{
+	position: relative;
+	top: 105px;
+	left: 262px;
+	width: 525px;
+	height: 48px;
+	text-align: left;
+	font-size: 44px;
+	font-family: 'Roboto', Helvetica, sans-serif;
+	font-weight: bold;
+	letter-spacing: 0;
+	color: #FF7A00;
+	opacity: 1;
+	z-index: 3;
+}
+.text5{
+	position: relative;
+	top: 180px;
+	left: 262px;
+	width: 525px;
+	height: 48px;
+	text-align: left;
+	font-size: 16px;
+	font-family: 'Work', Helvetica, sans-serif;
+	letter-spacing: 0;
+	color: #FF7A00;
+	opacity: 1;
+	z-index: 3;
+}
+.orangeDot{
+	position: absolute;
+	top: 1396px;
+	left: 1683px;
+	width: 90px;
+	height: 90px;
+	background:#FF7A00 0% 0% no-repeat padding-box;
+	opacity: 0.66;
+	z-index: 1;
+	border-radius: 50%;
+}
+.colorBox3{
+	position:absolute;
+  	width:125px;
+  	height:24px;
+  	left:576px;
+  	top:556px;
+  	z-index: 3;
+  	background: #FF7A00 0% 0% no-repeat padding-box;
+	border-radius: 2px;
+	opacity: 0.8;
+}
+.text6{
+	position: relative;
+	position: relative;
+	top: 50%;
+	left: 15px;
+	transform: translateY(-50%);
+	width: 100px;
+	height: 16px;
+	text-align: left;
+	font-size: 14px;
+	font-family: 'Work', Helvetica, sans-serif;
+	letter-spacing: 0;
+	color: #FFFFFF;
+	opacity: 1;
+	z-index: 4;
+}
+.pic2{
+	position: absolute;
+	height: 675px;
+	width: 1013px;
+	top: 1612px;
+	left: 1013px;
+	z-index: 1;
+	transform: matrix(1, 0.03, -0.03, 1, 0, 0);
+	box-shadow: 0px 7px 7px #00000029;
+	border-radius: 3px;
+	opacity: 1;
+}
+.blueDot2{
+	position: absolute;
+	top: 2178px;
+	left: 369px;
+	width: 90px;
+	height: 90px;
+	background:#004381 0% 0% no-repeat padding-box;
+	opacity: 0.66;
+	z-index: 1;
+	border-radius: 50%;
+}
+</style>
+</head>
+<body>
+
+
+<div class="parallax">
+	<div class="blueDot"></div>
+	<div class="pic1"><img src="home1.jpg"></div>
+	<div class="colorBox">
+		<div class="whiteLine1"></div>
+		<div class="text1">The Full</div>
+		<div class="text2">New Zealand</div>
+		<div class="text3">Experience</div>
+		<div class="whiteLine2"></div>
+	</div>
+	<div class="colorBox2">
+		<div class="orangeCircle"></div>
+		<div class="text4">Preface</div>
+		<div class="text5">I have travelled throughout New Zealand at the beginning 2010, seeing several waterfalls and mountains, as well as a few windmills! I travelled for several months, staying in a variety of homes and houses along the way. <br>
+		I have chosen these pictures to represent my journey on this website because I feel they showed how I was at the time, with quite amateur pictures of things I liked the look of at the time! <br> <br>
+		For more amatuer pictures of stuff I liked the look of, click the link below!</div>
+		<div class="colorBox3"><div class="text6">LEARN MORE</div></div>
+		
+	</div>
+	<div class="orangeDot"></div>
+	<div class="pic2"><img src="home2.jpg"></div>
+	<div class="blueDot2"></div>
+
+</div>
+
+
+
+</body>
+</html>
