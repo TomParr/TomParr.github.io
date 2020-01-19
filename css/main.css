@@ -30,6 +30,11 @@ h2 {
     font-size: 1em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
+h3 {
+    font-size:0.8em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+    
 p {
     line-height: 1.4em;
     color: #333;
