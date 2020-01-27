@@ -8,7 +8,7 @@ After a bit of research, I decided to use <a href="https://ubuntu.com/">Ubuntu</
 My main incentive for doing the project was to help utilize Jekyll's ability to allow me to post to my website from the command line
  and not have to access the github website and create a new file every time. I selected Ubuntu because it maintains a recognisable 
  user interface quite similar to a windows desktop. <br />
- Once I'd picked an operating system, the actual install was quite simple. I followed the official <a href="https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop#0">instructions</a> on Ubuntus website.
+ Once I'd picked an operating system, the actual install was quite simple. I followed the official <a href="https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop#0">instructions</a> on Ubuntu's website.
  Using my main PC I downloaded the build onto a USB pen which I connected to my laptop (after ensuring it didn't have any useful data on it!)
  I rebooted the laptop and using the BIOS I booted from the USB pen and followed the instructions to create the OS. <br /> <br />
  This will prove quite useful in the long term, beyond breathing new life into an old laptop that was running unsupported Windows Vista
