@@ -13,12 +13,12 @@ that would take 5 inputs - hours, days, weeks, months and years. It then recompi
  The main problem with this project at the time was that obviously the length of a month varies depending on the month! 
  I do address this in the readme, but I basically just assume a month is 30 days. 
  I use the amount of days to calculate the amount of years (365) to avoid confusion about week and month length. <br />
- <pre style ="background-color:powderblue"><code>while (this.getD() >= 365)
+ <span style ="background-color:powderblue"><pre><code>while (this.getD() >= 365)
       {
          this.Y = this.getY() + 1;
          this.D = this.getD() - 365;
       }
-</code></pre><br />
+</code></pre></span><br />
 A small snippet showing how the Y object is incremented by 1 for every 365 D objects.<br />
 I found this project much harder to polish off than to think up the basic code due to the decrepencies between the objects
 (days in months could be 28, 30 or 31, weeks in months could be 5 or 6, weeks and years, etc) so it isn't entirely accurate! 
