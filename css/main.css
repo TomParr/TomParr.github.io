@@ -58,4 +58,5 @@ li {
 pre code{
     background-color:#d2d2d4;
     display:table-cell;
+    padding: 10px;
 }
