@@ -18,7 +18,7 @@ that would take 5 inputs - hours, days, weeks, months and years. It then recompi
          this.Y = this.getY() + 1;
          this.D = this.getD() - 365;
       }
-</code></pre><br />
+</code></pre>
 A small snippet showing how the Y object is incremented by 1 for every 365 D objects.<br />
 I found this project much harder to polish off than to think up the basic code due to the decrepencies between the objects
 (days in months could be 28, 30 or 31, weeks in months could be 5 or 6, weeks and years, etc) so it isn't entirely accurate! 
