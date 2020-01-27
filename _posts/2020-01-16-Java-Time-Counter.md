@@ -13,7 +13,7 @@ that would take 5 inputs - hours, days, weeks, months and years. It then recompi
  The main problem with this project at the time was that obviously the length of a month varies depending on the month! 
  I do address this in the readme, but I basically just assume a month is 30 days. 
  I use the amount of days to calculate the amount of years (365) to avoid confusion about week and month length. <br />
- <pre><code>while (this.getD() >= 365)
+ <pre><code style ="background-color:powderblue">while (this.getD() >= 365)
       {
          this.Y = this.getY() + 1;
          this.D = this.getD() - 365;
