@@ -56,6 +56,6 @@ li {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 pre code{
-      background-color:#d2d2d4;
-    display:block;
+    background-color:#d2d2d4;
+    display:table-cell;
 }
