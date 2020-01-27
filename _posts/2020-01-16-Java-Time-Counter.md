@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Creating a basic time counter with Java"
-date: 2020-01-27
+date: 2020-01-16
 ---
 <a href="https://github.com/TomParr/JavaCounter">Java Counter</a><br />
 A few years ago whilst I was using BlueJ for an Open University module (M250) I found out the till printers at work
