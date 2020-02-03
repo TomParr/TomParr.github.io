@@ -13,3 +13,7 @@ It took me a few months to go through all the projects, and I'm sure I'll make u
   the Pi, more code based. I also looked at using the [RetroPie](https://retropie.org.uk/) website to create an emulation console. <br />
   This helped me understand that the OS is stored on an SD card and it is really easy to swap between different Operating Systems! However I soon 
   found the legal issues surrounding ROMS and emulation in general were too complex for me to use the RetroPie with a clear conscience!
+<br />
+<br />
+For the future I think I'm going to look at the [Reef-Pi](https://reef-pi.github.io/) software, another hobby of mine is aquariums and aquascaping and I think having a dedicated control system that can monitor and act on the data created would be a big saving of time and would help avoid any heartbreak! In my university studies I used a [Sense board](https://www.open.edu/openlearncreate/mod/oucontent/view.php?id=22785%253f) which I am hoping I could implement for some of the sensors if they aren't in the Freenove kit! <br /> 
+It is a big undertaking though, so it is something I'll have to leave for now, until I find a spare few hours!
