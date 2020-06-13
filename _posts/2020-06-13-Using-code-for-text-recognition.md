@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Using a combination of VBScipt RegEx to read text from forms"
+title: "Using a combination of VBScipt and RegEx to read text from forms"
 date: 2020-06-13
 ---
 This was my job for the last 4 months, I was helping to create templates for invoices, so that software can read the vital information
