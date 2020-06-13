@@ -18,8 +18,8 @@ For instance where the period of service dates were in a paragraph, perhaps like
 </code></pre>
 So this would use VBScript to check if there was the text "Charge for the period" in the section, then uses a regular expression to 
 select the information. [\d]<span style="color:red;">a number</span>{1,2}<span style="color:red;">1 or 2 of them</span>\s<span style="color:red;">a space</span>
-[A-Za-z]+<p style="color:red;">1 to unlimited amount of letters in a word beginning with a capital letter</p>\s[\d]{4}<p style="color:red;">a space followed by 4 digits</p>
-(?= to)<p style="color:red;">This looks ahead, if " to" is present, then the string is verified</p><br />
+[A-Za-z]+<span style="color:red;">1 to unlimited amount of letters in a word beginning with a capital letter</span>\s[\d]{4}<span style="color:red;">a space followed by 4 digits</span>
+(?= to)<span style="color:red;">This looks ahead, if " to" is present, then the string is verified</span><br />
 the (?! to) means that if there is not " to" after the string then it is captured.<br /><br />
 There are several other small bits like this that can need doing, often an invoice will say "For the month of May", so I'd need to 
 use the dateadd function enddate = dateadd("D",-1,dateadd("M",1,startdate.value)) which would first add a month (01 Jun 2020) then
@@ -27,7 +27,7 @@ use the dateadd function enddate = dateadd("D",-1,dateadd("M",1,startdate.value)
   numbers being displayed in their hexidecimal form, but 29 characters further along the list (similar to a Caesar Cypher). I had to first seperate all the hexadecimal
    numbers into an array, then iterate through the array to remove the square brackets. Then used a pre written piece of code to 
    move them 29 places and convert them back to regular decimals. Then I had to put them back together again!<br /><br />
-   Once all this was completed, the template can be saved to that invoice account in SQL, and automatically used to pull the information
+   Once all this was completed, the template can be set to that invoice account in an SQL field, and automatically used to pull the information
     from any future invoices connected to that account. <br />
     
 
