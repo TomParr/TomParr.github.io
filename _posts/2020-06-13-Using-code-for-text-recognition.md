@@ -17,7 +17,7 @@ For instance where the period of service dates were in a paragraph, perhaps like
    End if
 </code></pre>
 So this would use VBScript to check if there was the text "Charge for the period" in the section, then uses a regular expression to 
-select the information. [\d]<p style="color:red;">a number</p>{1,2}<p style="color:red;">1 or 2 of them</p>\s<p style="color:red;">a space</p>
+select the information. [\d]<span style="color:red;">a number</span>{1,2}<span style="color:red;">1 or 2 of them</span>\s<span style="color:red;">a space</span>
 [A-Za-z]+<p style="color:red;">1 to unlimited amount of letters in a word beginning with a capital letter</p>\s[\d]{4}<p style="color:red;">a space followed by 4 digits</p>
 (?= to)<p style="color:red;">This looks ahead, if " to" is present, then the string is verified</p><br />
 the (?! to) means that if there is not " to" after the string then it is captured.<br /><br />
