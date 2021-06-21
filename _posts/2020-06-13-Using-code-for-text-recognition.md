@@ -3,8 +3,8 @@ layout: post
 title: "Using a combination of VBScipt and RegEx to read text from forms"
 date: 2020-06-13
 ---
-This was my job for the last 4 months, I was helping to create templates for invoices, so that software can read the vital information
- and save it to their database. <br /><br />
+This was my job for 4 months, I was helping to create templates for invoices, so that software can read the vital information
+ and save it to a database. <br /><br />
  The way they did this was to use a custom peice of software that allowed you to view the invoice and select information for tagging
   and a selection offset from that tag that gives the value of the information.<br />
 Whilst the majority of this templating only required a basic knowledge of the program, (setting an invoice start period date 
